@@ -15,16 +15,16 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content
 .nav-links{display:flex;gap:2.5rem;list-style:none;}
 .nav-links a{font-size:0.85rem;font-weight:500;color:var(--muted);text-decoration:none;letter-spacing:0.06em;text-transform:uppercase;transition:color 0.2s;}
 .nav-links a:hover,.nav-links a.active{color:var(--navy);}
-
+ 
 .contact-wrap{display:grid;grid-template-columns:1fr 1fr;min-height:100vh;}
-
+ 
 /* LEFT */
 .contact-left{background:var(--navy);padding:9rem 4rem 4rem;display:flex;flex-direction:column;justify-content:center;}
 .c-label{font-size:0.75rem;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem;}
 .c-heading{font-family:'DM Serif Display',serif;font-size:3rem;color:var(--white);line-height:1.15;margin-bottom:1.5rem;}
 .c-heading em{color:var(--accent);font-style:italic;}
 .c-sub{font-size:0.95rem;line-height:1.75;color:rgba(255,255,255,0.55);margin-bottom:3rem;max-width:380px;}
-
+ 
 .contact-items{display:flex;flex-direction:column;gap:1.75rem;}
 .ci{display:flex;align-items:flex-start;gap:1.1rem;}
 .ci-icon{width:42px;height:42px;border-radius:0.5rem;background:rgba(200,169,110,0.12);border:1px solid rgba(200,169,110,0.2);display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0;}
@@ -32,29 +32,29 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content
 .ci-val{font-size:0.95rem;color:var(--white);font-weight:500;}
 .ci-val a{color:var(--accent);text-decoration:none;transition:opacity 0.2s;}
 .ci-val a:hover{opacity:0.8;text-decoration:underline;}
-
+ 
 .availability{margin-top:3rem;padding:1.25rem 1.5rem;background:rgba(200,169,110,0.1);border:1px solid rgba(200,169,110,0.2);border-radius:0.5rem;display:flex;align-items:center;gap:0.75rem;}
 .avail-dot{width:8px;height:8px;border-radius:50%;background:#5cb85c;flex-shrink:0;box-shadow:0 0 8px rgba(92,184,92,0.6);}
 .avail-txt{font-size:0.85rem;color:rgba(255,255,255,0.7);}
 .avail-txt strong{color:var(--accent);}
-
+ 
 /* RIGHT */
 .contact-right{background:var(--white);padding:9rem 4rem 4rem;display:flex;flex-direction:column;justify-content:center;}
 .form-heading{font-family:'DM Serif Display',serif;font-size:2rem;color:var(--navy);margin-bottom:0.5rem;}
 .form-sub{font-size:0.9rem;color:var(--muted);margin-bottom:2.5rem;line-height:1.6;}
-
+ 
 .form-group{margin-bottom:1.4rem;}
 .form-group label{display:block;font-size:0.78rem;font-weight:500;color:var(--navy);text-transform:uppercase;letter-spacing:0.07em;margin-bottom:0.5rem;}
 .form-group input,.form-group textarea,.form-group select{width:100%;padding:0.85rem 1rem;border:1.5px solid rgba(15,39,68,0.15);border-radius:0.25rem;font-family:'DM Sans',sans-serif;font-size:0.92rem;color:var(--text);background:var(--light);transition:border-color 0.2s,box-shadow 0.2s;outline:none;-webkit-appearance:none;}
 .form-group input:focus,.form-group textarea:focus,.form-group select:focus{border-color:var(--navy);box-shadow:0 0 0 3px rgba(15,39,68,0.07);}
 .form-group textarea{resize:vertical;min-height:130px;}
 .form-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}
-
+ 
 .btn-submit{width:100%;background:var(--navy);color:var(--white);padding:1rem;border:none;border-radius:0.25rem;font-family:'DM Sans',sans-serif;font-size:0.95rem;font-weight:500;cursor:pointer;letter-spacing:0.04em;transition:background 0.2s,transform 0.15s;margin-top:0.5rem;}
 .btn-submit:hover{background:var(--blue);transform:translateY(-2px);}
-
+ 
 .success-msg{display:none;background:#eaf7ee;border:1px solid #a8d5b5;color:#1a6b35;padding:1rem 1.25rem;border-radius:0.25rem;font-size:0.9rem;margin-top:1rem;text-align:center;line-height:1.5;}
-
+ 
 @media(max-width:900px){
   nav{padding:1rem 1.5rem;}
   .contact-wrap{grid-template-columns:1fr;}
@@ -75,14 +75,14 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content
     <li><a href="contact.html" class="active">Contact</a></li>
   </ul>
 </nav>
-
+ 
 <div class="contact-wrap">
   <!-- LEFT -->
   <div class="contact-left">
     <p class="c-label">Let's talk</p>
     <h1 class="c-heading">Open to the right <em>opportunity.</em></h1>
     <p class="c-sub">If you're looking for a senior Team Manager with a proven track record in IT service delivery, workforce management systems, and operational excellence — let's connect.</p>
-
+ 
     <div class="contact-items">
       <div class="ci">
         <div class="ci-icon">📱</div>
@@ -120,18 +120,18 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content
         </div>
       </div>
     </div>
-
+ 
     <div class="availability">
       <div class="avail-dot"></div>
       <div class="avail-txt"><strong>Open to opportunities</strong> — Senior Operations &amp; Service Delivery roles</div>
     </div>
   </div>
-
+ 
   <!-- RIGHT: FORM -->
   <div class="contact-right">
     <h2 class="form-heading">Send a message</h2>
     <p class="form-sub">Whether it's a job opportunity, a collaboration, or just a conversation — I'll get back to you within 24 hours.</p>
-
+ 
     <form id="contactForm">
       <div class="form-row">
         <div class="form-group">
@@ -171,7 +171,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content
     </form>
   </div>
 </div>
-
+ 
 <footer style="background:#0a1d35;padding:2rem 4rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;">
   <p style="color:rgba(255,255,255,0.4);font-size:0.82rem;">© 2025 Amit Das Bairagi · Pune, India</p>
   <div style="display:flex;gap:2rem;">
@@ -181,7 +181,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content
     <a href="https://www.linkedin.com/in/amit-das-8bss/" target="_blank" style="color:rgba(255,255,255,0.4);font-size:0.82rem;text-decoration:none;">LinkedIn</a>
   </div>
 </footer>
-
+ 
 <script>
 document.getElementById('contactForm').addEventListener('submit', function(e) {
   e.preventDefault();
