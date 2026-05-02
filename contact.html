@@ -1,133 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content />
-        <meta name="author" content />
-        <title>Modern Business - Start Bootstrap Template</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Custom Google font-->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body class="d-flex flex-column">
-        <main class="flex-shrink-0">
-            <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
-                <div class="container px-5">
-                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Start Bootstrap</span></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <!-- Page content-->
-            <section class="py-5">
-                <div class="container px-5">
-                    <!-- Contact form-->
-                    <div class="bg-light rounded-4 py-5 px-4 px-md-5">
-                        <div class="text-center mb-5">
-                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
-                            <h1 class="fw-bolder">Get in touch</h1>
-                            <p class="lead fw-normal text-muted mb-0">Let's work together!</p>
-                        </div>
-                        <div class="row gx-5 justify-content-center">
-                            <div class="col-lg-8 col-xl-6">
-                                <!-- * * * * * * * * * * * * * * *-->
-                                <!-- * * SB Forms Contact Form * *-->
-                                <!-- * * * * * * * * * * * * * * *-->
-                                <!-- This form is pre-integrated with SB Forms.-->
-                                <!-- To make this form functional, sign up at-->
-                                <!-- https://startbootstrap.com/solution/contact-forms-->
-                                <!-- to get an API token!-->
-                                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                                    <!-- Name input-->
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                        <label for="name">Full name</label>
-                                        <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                                    </div>
-                                    <!-- Email address input-->
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                        <label for="email">Email address</label>
-                                        <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                        <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                                    </div>
-                                    <!-- Phone number input-->
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                        <label for="phone">Phone number</label>
-                                        <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                                    </div>
-                                    <!-- Message input-->
-                                    <div class="form-floating mb-3">
-                                        <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                        <label for="message">Message</label>
-                                        <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                                    </div>
-                                    <!-- Submit success message-->
-                                    <!---->
-                                    <!-- This is what your users will see when the form-->
-                                    <!-- has successfully submitted-->
-                                    <div class="d-none" id="submitSuccessMessage">
-                                        <div class="text-center mb-3">
-                                            <div class="fw-bolder">Form submission successful!</div>
-                                            To activate this form, sign up at
-                                            <br />
-                                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                        </div>
-                                    </div>
-                                    <!-- Submit error message-->
-                                    <!---->
-                                    <!-- This is what your users will see when there is-->
-                                    <!-- an error submitting the form-->
-                                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                                    <!-- Submit Button-->
-                                    <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <!-- Footer-->
-        <footer class="bg-white py-4 mt-auto">
-            <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0">Copyright &copy; Your Website 2023</div></div>
-                    <div class="col-auto">
-                        <a class="small" href="#!">Privacy</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Terms</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Contact</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Contact | Amit Das Bairagi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+<style>
+:root{--navy:#0f2744;--blue:#1a4a8a;--accent:#c8a96e;--light:#f5f2ed;--text:#2c2c2c;--muted:#6b6b6b;--white:#ffffff;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'DM Sans',sans-serif;background:var(--light);color:var(--text);min-height:100vh;}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content:space-between;align-items:center;padding:1.25rem 4rem;background:rgba(245,242,237,0.93);backdrop-filter:blur(12px);border-bottom:1px solid rgba(15,39,68,0.08);}
+.nav-brand{font-family:'DM Serif Display',serif;font-size:1.2rem;color:var(--navy);text-decoration:none;}
+.nav-links{display:flex;gap:2.5rem;list-style:none;}
+.nav-links a{font-size:0.85rem;font-weight:500;color:var(--muted);text-decoration:none;letter-spacing:0.06em;text-transform:uppercase;transition:color 0.2s;}
+.nav-links a:hover,.nav-links a.active{color:var(--navy);}
+
+.contact-wrap{display:grid;grid-template-columns:1fr 1fr;min-height:100vh;}
+
+/* LEFT */
+.contact-left{background:var(--navy);padding:9rem 4rem 4rem;display:flex;flex-direction:column;justify-content:center;}
+.c-label{font-size:0.75rem;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem;}
+.c-heading{font-family:'DM Serif Display',serif;font-size:3rem;color:var(--white);line-height:1.15;margin-bottom:1.5rem;}
+.c-heading em{color:var(--accent);font-style:italic;}
+.c-sub{font-size:0.95rem;line-height:1.75;color:rgba(255,255,255,0.55);margin-bottom:3rem;max-width:380px;}
+
+.contact-items{display:flex;flex-direction:column;gap:1.75rem;}
+.ci{display:flex;align-items:flex-start;gap:1.1rem;}
+.ci-icon{width:42px;height:42px;border-radius:0.5rem;background:rgba(200,169,110,0.12);border:1px solid rgba(200,169,110,0.2);display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0;}
+.ci-label{font-size:0.7rem;text-transform:uppercase;letter-spacing:0.1em;color:rgba(255,255,255,0.35);margin-bottom:0.2rem;}
+.ci-val{font-size:0.95rem;color:var(--white);font-weight:500;}
+.ci-val a{color:var(--accent);text-decoration:none;transition:opacity 0.2s;}
+.ci-val a:hover{opacity:0.8;text-decoration:underline;}
+
+.availability{margin-top:3rem;padding:1.25rem 1.5rem;background:rgba(200,169,110,0.1);border:1px solid rgba(200,169,110,0.2);border-radius:0.5rem;display:flex;align-items:center;gap:0.75rem;}
+.avail-dot{width:8px;height:8px;border-radius:50%;background:#5cb85c;flex-shrink:0;box-shadow:0 0 8px rgba(92,184,92,0.6);}
+.avail-txt{font-size:0.85rem;color:rgba(255,255,255,0.7);}
+.avail-txt strong{color:var(--accent);}
+
+/* RIGHT */
+.contact-right{background:var(--white);padding:9rem 4rem 4rem;display:flex;flex-direction:column;justify-content:center;}
+.form-heading{font-family:'DM Serif Display',serif;font-size:2rem;color:var(--navy);margin-bottom:0.5rem;}
+.form-sub{font-size:0.9rem;color:var(--muted);margin-bottom:2.5rem;line-height:1.6;}
+
+.form-group{margin-bottom:1.4rem;}
+.form-group label{display:block;font-size:0.78rem;font-weight:500;color:var(--navy);text-transform:uppercase;letter-spacing:0.07em;margin-bottom:0.5rem;}
+.form-group input,.form-group textarea,.form-group select{width:100%;padding:0.85rem 1rem;border:1.5px solid rgba(15,39,68,0.15);border-radius:0.25rem;font-family:'DM Sans',sans-serif;font-size:0.92rem;color:var(--text);background:var(--light);transition:border-color 0.2s,box-shadow 0.2s;outline:none;-webkit-appearance:none;}
+.form-group input:focus,.form-group textarea:focus,.form-group select:focus{border-color:var(--navy);box-shadow:0 0 0 3px rgba(15,39,68,0.07);}
+.form-group textarea{resize:vertical;min-height:130px;}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}
+
+.btn-submit{width:100%;background:var(--navy);color:var(--white);padding:1rem;border:none;border-radius:0.25rem;font-family:'DM Sans',sans-serif;font-size:0.95rem;font-weight:500;cursor:pointer;letter-spacing:0.04em;transition:background 0.2s,transform 0.15s;margin-top:0.5rem;}
+.btn-submit:hover{background:var(--blue);transform:translateY(-2px);}
+
+.success-msg{display:none;background:#eaf7ee;border:1px solid #a8d5b5;color:#1a6b35;padding:1rem 1.25rem;border-radius:0.25rem;font-size:0.9rem;margin-top:1rem;text-align:center;line-height:1.5;}
+
+@media(max-width:900px){
+  nav{padding:1rem 1.5rem;}
+  .contact-wrap{grid-template-columns:1fr;}
+  .contact-left{padding:8rem 1.5rem 3rem;}
+  .contact-right{padding:3rem 1.5rem 4rem;}
+  .c-heading{font-size:2.2rem;}
+  .form-row{grid-template-columns:1fr;}
+}
+</style>
+</head>
+<body>
+<nav>
+  <a class="nav-brand" href="index.html">Amit Das</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="resume.html">Resume</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="contact-wrap">
+  <!-- LEFT -->
+  <div class="contact-left">
+    <p class="c-label">Let's talk</p>
+    <h1 class="c-heading">Open to the right <em>opportunity.</em></h1>
+    <p class="c-sub">If you're looking for a senior Team Manager with a proven track record in IT service delivery, workforce management systems, and operational excellence — let's connect.</p>
+
+    <div class="contact-items">
+      <div class="ci">
+        <div class="ci-icon">📱</div>
+        <div>
+          <div class="ci-label">Phone</div>
+          <div class="ci-val"><a href="tel:+917003441156">+91 7003441156</a></div>
+        </div>
+      </div>
+      <div class="ci">
+        <div class="ci-icon">✉️</div>
+        <div>
+          <div class="ci-label">Email</div>
+          <div class="ci-val"><a href="mailto:amitdas.b1994@gmail.com">amitdas.b1994@gmail.com</a></div>
+        </div>
+      </div>
+      <div class="ci">
+        <div class="ci-icon">💼</div>
+        <div>
+          <div class="ci-label">LinkedIn</div>
+          <div class="ci-val"><a href="https://www.linkedin.com/in/amit-das-8bss/" target="_blank">linkedin.com/in/amit-das-8bss</a></div>
+        </div>
+      </div>
+      <div class="ci">
+        <div class="ci-icon">🌐</div>
+        <div>
+          <div class="ci-label">Portfolio</div>
+          <div class="ci-val"><a href="https://amitdasb1994-prog.github.io/amitdas1994-prog.github.io/" target="_blank">amitdasb1994-prog.github.io</a></div>
+        </div>
+      </div>
+      <div class="ci">
+        <div class="ci-icon">📍</div>
+        <div>
+          <div class="ci-label">Location</div>
+          <div class="ci-val" style="color:rgba(255,255,255,0.75);">Pune, Maharashtra, India</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="availability">
+      <div class="avail-dot"></div>
+      <div class="avail-txt"><strong>Open to opportunities</strong> — Senior Operations &amp; Service Delivery roles</div>
+    </div>
+  </div>
+
+  <!-- RIGHT: FORM -->
+  <div class="contact-right">
+    <h2 class="form-heading">Send a message</h2>
+    <p class="form-sub">Whether it's a job opportunity, a collaboration, or just a conversation — I'll get back to you within 24 hours.</p>
+
+    <form id="contactForm">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" placeholder="Your first name" required/>
+        </div>
+        <div class="form-group">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" placeholder="Your last name"/>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="your@email.com" required/>
+      </div>
+      <div class="form-group">
+        <label for="company">Company / Organisation</label>
+        <input type="text" id="company" placeholder="Where are you reaching out from?"/>
+      </div>
+      <div class="form-group">
+        <label for="subject">Reason for Contact</label>
+        <select id="subject">
+          <option value="">Select a reason…</option>
+          <option>Job Opportunity</option>
+          <option>Recruitment Enquiry</option>
+          <option>Collaboration</option>
+          <option>Networking</option>
+          <option>General</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Tell me about the role, the team, or how I can help…" required></textarea>
+      </div>
+      <button type="submit" class="btn-submit">Send Message →</button>
+      <div class="success-msg" id="successMsg">✓ Message sent! Thank you for reaching out — I'll be in touch within 24 hours.</div>
+    </form>
+  </div>
+</div>
+
+<footer style="background:#0a1d35;padding:2rem 4rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;">
+  <p style="color:rgba(255,255,255,0.4);font-size:0.82rem;">© 2025 Amit Das Bairagi · Pune, India</p>
+  <div style="display:flex;gap:2rem;">
+    <a href="index.html" style="color:rgba(255,255,255,0.4);font-size:0.82rem;text-decoration:none;">Home</a>
+    <a href="resume.html" style="color:rgba(255,255,255,0.4);font-size:0.82rem;text-decoration:none;">Resume</a>
+    <a href="projects.html" style="color:rgba(255,255,255,0.4);font-size:0.82rem;text-decoration:none;">Projects</a>
+    <a href="https://www.linkedin.com/in/amit-das-8bss/" target="_blank" style="color:rgba(255,255,255,0.4);font-size:0.82rem;text-decoration:none;">LinkedIn</a>
+  </div>
+</footer>
+
+<script>
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const msg = document.getElementById('successMsg');
+  msg.style.display = 'block';
+  this.reset();
+  setTimeout(() => { msg.style.display = 'none'; }, 6000);
+});
+</script>
+</body>
 </html>
